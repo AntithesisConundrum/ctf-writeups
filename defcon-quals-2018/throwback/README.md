@@ -4,7 +4,7 @@ The original file is ["text"](./text), a 90-byte long string:
 `Anyo!e!howouldsacrificepo!icyforexecu!!onspeedthink!securityisacomm!ditytop!urintoasy!tem!`.
 
 ## Approach
-Since this is all that we're given, it's pretty likely that this is a stenography challenge.
+Since this is all that we're given, it's pretty likely that this is a steganography challenge.
 Let's start by trying to figure out what the original message would be. It's likely
 `Anyone who would sacrifice policy for execution speed thinks security is a commodity
 to pour into a system!`, replacing letters `nwltisoos`. Note that this replaces all of the 
@@ -17,9 +17,9 @@ while).
 Let's try... the letters before/after the exclamation points.
 Before: `oeou kmpym`, after: `ehi osdut `. Neither works.
 
-Thinking of this as a stenography tactic... it's not usually a good steno tactic to require
+Thinking of this as a steganography tactic... it's not usually a good stego tactic to require
 your hidden message to rely on the plaintext it's encoded in. (You then need to find a
-specific plaintext that works, which kind of weakens the point of using steno in the
+specific plaintext that works, which kind of weakens the point of using stego in the
 first place.) So let's consider the positions of the exclamation points, rather than the
 letters around them.
 
