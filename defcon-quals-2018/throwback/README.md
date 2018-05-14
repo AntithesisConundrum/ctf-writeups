@@ -37,7 +37,7 @@ Instead of using a 0-indexed alphabet (where 0 maps to a, 1 to b, etc), we shoul
 used a 1-indexed alphabet with zero mapping to a space (since spaces are explicitly
 allowed in the hint).
 
-Here's a script for the entire process (downloadable as [solution.py](./solution.py):
+Here's a script for the entire process (downloadable as [solution.py](./solution.py)):
 ```Python
 # The given ciphertext
 text = "Anyo!e!howouldsacrificepo!icyforexecu!!onspeedthink!securityisacomm!ditytop!urintoasy!tem!"
