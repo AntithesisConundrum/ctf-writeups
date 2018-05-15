@@ -6,7 +6,7 @@ need to piece it back together.
 
 ## Approach
 Opening the executable in a text editor shows that 807 bytes have been overwritten
-with "X". The sum of the sizes of all the executables is also 807, so it seems likely that
+with "X". The sum of the sizes of all the fragments is also 807, so it seems likely that
 we just have to order the fragments correctly and place them back in the executable.
 
 There is a nice, high-level way to do this by examining the sizes of the functions
